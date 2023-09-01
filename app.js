@@ -1,32 +1,4 @@
-// $( "form" ).on( "submit", function( event ) {
-//     event.preventDefault();
-//     console.log( $( this ).serialize() );
-//   });  
 
-  // $(document).ready(function(){
-  //   $(".svg").click(function(){
-  //     $(this).removeClass("rotateBackwards");
-  //     $(this).toggleClass("rotate");
-  //     if ($(".svg").hasClass("rotate")) {
-  //       $(this).click(function(){
-  //         $(this).removeClass("rotate"),
-  //         $(this).toggleClass("rotateBackwards")
-  //       })
-  //     }
-      
-  //   });
-  // });
-
-  // $(document).ready(function(){
-  //   $(".svg").click(function(){
-  //     $(this).addClass("rotate");
-  //   })
-  //   var a = $("this").hasClass("");
-  //   var b = .css("rotate");
-  //   if(b==a) {$(this).css({"transform": "rotate(0deg)", "transition": "0.5s"}
-  //   )}
-      
-  // })
 
   $( "#clickable" ).on( "click", function() {
     $(this).next().slideToggle();
@@ -46,20 +18,7 @@
 
     }
 
-//     $(document).on('click', '.svg-first', function () {
-//       $(this).prev().children('ul').toggle();
-//       $(".svg").click(function(){
-          
-//          $(this).addClass("rotate");
-//         //  $(this).removeClass("rotate");
-//         if ( $(".svg").hasClass( "rotate" ) ) {
-//           $(this).delay( 800 ).removeClass("rotate");
-//         }
 
-
-
-//   });
-// });
 
 $(document).on('click', '.svg', function () {
   
